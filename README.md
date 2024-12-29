@@ -1,135 +1,119 @@
-# 💻 Welcome to My GitHub Portfolio  
+# 🚀 Hi, I'm Osigah. Welcome to my Portfolio
 
-Hello! 👋 I'm a **Network and Security Engineer** passionate about designing, building, and securing complex networks. With a strong foundation in **networking, cybersecurity, and cloud computing**, I strive to stay ahead of the curve by continuously learning and applying new technologies.  
-
-This repository serves as my **landing page**, showcasing the projects and initiatives I’ve worked on to build my expertise in **network security, cloud security, automation, and beyond**.  
+Hi there! 👋 I'm a **Network and Security Engineer** with a proven track record of solving complex challenges in networking, cybersecurity, and cloud environments. With industry-recognized certifications, real-world experience, and an unrelenting passion for innovation, this portfolio highlights my journey, skills, and expertise as I aim to secure a role in **network security** and **cloud security**.  
 
 ---
 
 ## 🎯 **About Me**  
 
-- **CCNP Security Certified** professional with hands-on experience in networking, firewall management, and VPNs.  
-- Currently expanding my knowledge in **cloud computing** (via ACloudGuru) and **automation** to enhance security operations.  
-- Passionate about using technology to solve real-world challenges in security and networking.  
+I am a results-driven engineer with hands-on experience in designing, implementing, and securing **enterprise-grade networks**. My goal is to bridge the gap between **traditional networking** and the **cloud-first world**, leveraging cutting-edge tools and best practices to build resilient, scalable, and secure infrastructures.  
+
+- 🌟 **CCNP Security Certified** (and other certifications listed below).  
+- 🛡️ Focused on **network security, cloud security**, and **automation**.  
+- 🌐 Experienced in **multi-vendor environments** and **hybrid cloud networking**.  
+- 💡 Always learning, currently diving deep into **AWS Cloud Security** and **Python automation**.  
+
+This portfolio is a showcase of my technical projects, skills, and accomplishments.  
 
 ---
 
 ## 📂 **Featured Projects**  
 
-Here are some of the key projects I’ve worked on (click to explore the repositories):  
+### 🔒 **Enterprise VPN Deployment and Security**  
+- Built **secure site-to-site VPNs** using Cisco ASA and implemented advanced configurations, including:  
+  - QoS for critical application traffic.  
+  - Anti-replay mechanisms and robust encryption.  
+- Configured **Cisco AnyConnect VPNs** for secure remote access, ensuring seamless user experiences and compliance with organizational policies.  
 
-1. **🔒 VPN Deployment and Management**  
-   - Designed and implemented secure site-to-site VPNs on Cisco ASA devices with advanced policies like QoS and anti-replay.  
-   - Configured AnyConnect VPNs for secure remote access.  
+### 🌐 **Virtualized Network Security Lab**  
+- Created a **real-world enterprise network** on **EVE-NG**, simulating diverse scenarios, including:  
+  - BGP and OSPF routing, VLAN segmentation, and firewall policy enforcement.  
+  - Multi-vendor setup (Cisco, CheckPoint) for cross-platform security testing.  
+- Conducted **penetration testing** to identify and mitigate vulnerabilities.  
 
-2. **🌐 Network Security Lab**  
-   - Built a virtualized enterprise network on EVE-NG with Cisco devices, simulating real-world network scenarios.  
-   - Configured firewalls, VLANs, and QoS for secure traffic management.  
+### ☁️ **Cloud Security and Hybrid Integration**  
+- Deployed **AWS VPCs** with secure VPN connectivity to on-premises networks for hybrid cloud setups.  
+- Implemented **IAM roles, policies, and security groups** for least privilege access and workload protection.  
+- Designed a **secure-by-default cloud architecture** for scalable application hosting.  
 
-3. **☁️ Cloud Security Integration**  
-   - Integrated AWS services with secure networking setups for hybrid cloud environments.  
-   - Explored IAM policies, VPCs, and VPN connectivity to ensure secure workloads.  
-
-4. **🤖 Automation with Python**  
-   - Developed scripts to automate daily network monitoring and reporting using tools like PRTG and SolarWinds.  
-   - Implemented basic Ansible playbooks for firewall policy automation.  
-
----
-
-## 📜 **Certifications**  
-
-- **Cisco Certified Network Professional (CCNP) Security**  
-- Cisco SCOR (350-701) Certified  
-- CCNA Certified  
-- Currently pursuing: **Cloud Security certifications (AWS, Azure)**  
+### 🤖 **Network Automation with Python**  
+- Automated daily **network monitoring** using **Python scripts** integrated with tools like SolarWinds and PRTG.  
+- Developed **Ansible playbooks** for automating firewall policy deployments and routine network tasks, saving hours of manual effort.  
 
 ---
 
-## 🛠️ **Skills and Tools**  
+## 🏆 **Certifications & Trainings**
 
-- **Networking:** BGP, OSPF, DMVPN, MPLS  
-- **Security:** Firewalls (Cisco ASA, Checkpoint), VPNs, Anti-DDoS Solutions  
-- **Automation:** Python, Ansible  
-- **Cloud:** AWS, Azure (in progress)  
-- **Monitoring:** SolarWinds, PRTG  
-- **Lab Environments:** EVE-NG, GNS3  
+<img src="https://img.shields.io/badge/-CCNP%20Security-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
----
+<img src="https://img.shields.io/badge/-SCOR%20(350--701)-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
-## 🌟 **Let’s Collaborate**  
+<img src="https://img.shields.io/badge/-SVPN%20(300--730)-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
-I’m open to collaborating on exciting networking and security projects! If you’re working on something innovative or have ideas for joint projects, feel free to reach out.  
+<img src="https://img.shields.io/badge/-CCNA-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
-📧 **Email:** [Your Email]  
-💼 **LinkedIn:** # 💻 Welcome to My GitHub Portfolio  
+<img src="https://img.shields.io/badge/-Udacity%20Data%20Analyst%20Nanodegree-02B3E4?&style=for-the-badge&logo=Udacity&logoColor=white" />
 
-Hello! 👋 I'm a **Network and Security Engineer** passionate about designing, building, and securing complex networks. With a strong foundation in **networking, cybersecurity, and cloud computing**, I strive to stay ahead of the curve by continuously learning and applying new technologies.  
+<img src="https://img.shields.io/badge/-AWS%20Security%20Engineering%20Training-FF9900?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
 
-This repository serves as my **landing page**, showcasing the projects and initiatives I’ve worked on to build my expertise in **network security, cloud security, automation, and beyond**.  
 
 ---
 
-## 🎯 **About Me**  
+## 🛠️ **Core Skills and Tools**  
 
-- **CCNP Security Certified** professional with hands-on experience in networking, firewall management, and VPNs.  
-- Currently expanding my knowledge in **cloud computing** (via ACloudGuru) and **automation** to enhance security operations.  
-- Passionate about using technology to solve real-world challenges in security and networking.  
+- **Networking:**  
+  - Protocols: BGP, OSPF, EIGRP, DMVPN, MPLS  
+  - VPNs: IPsec, AnyConnect, Site-to-Site VPNs  
+  - Routing & Switching: VLANs, STP, QoS  
 
----
+- **Security:**  
+  - Firewalls: Cisco ASA, CheckPoint, Palo Alto (in progress)  
+  - Identity Management: Cisco ISE, AAA, RADIUS  
+  - Threat Mitigation: DDoS Protection, ACLs, IPS/IDS  
 
-## 📂 **Featured Projects**  
+- **Cloud Computing:**  
+  - AWS (VPC, IAM, EC2, Security Groups, CloudTrail)  
+  - Azure (in progress)  
+  - Hybrid Networking  
 
-Here are some of the key projects I’ve worked on (click to explore the repositories):  
+- **Automation & Monitoring:**  
+  - Automation Tools: Python, Ansible  
+  - Monitoring: SolarWinds, PRTG, Cisco ThousandEyes  
 
-1. **🔒 VPN Deployment and Management**  
-   - Designed and implemented secure site-to-site VPNs on Cisco ASA devices with advanced policies like QoS and anti-replay.  
-   - Configured AnyConnect VPNs for secure remote access.  
-
-2. **🌐 Network Security Lab**  
-   - Built a virtualized enterprise network on EVE-NG with Cisco devices, simulating real-world network scenarios.  
-   - Configured firewalls, VLANs, and QoS for secure traffic management.  
-
-3. **☁️ Cloud Security Integration**  
-   - Integrated AWS services with secure networking setups for hybrid cloud environments.  
-   - Explored IAM policies, VPCs, and VPN connectivity to ensure secure workloads.  
-
-4. **🤖 Automation with Python**  
-   - Developed scripts to automate daily network monitoring and reporting using tools like PRTG and SolarWinds.  
-   - Implemented basic Ansible playbooks for firewall policy automation.  
+- **Virtualization & Labs:**  
+  - EVE-NG, GNS3  
+  - Multi-vendor environments (Cisco, Huawei, CheckPoint)  
 
 ---
 
-## 📜 **Certifications**  
+## 🌟 **Why Hire Me?**  
 
-- **Cisco Certified Network Professional (CCNP) Security**  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a02eaec9-32a4-4178-826e-eab6fa6d8d05" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- Cisco SCOR (350-701) Certified
-- Cisco SVPN Technologies Specialist Certified <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c1aa86d7-d914-43ba-9e0a-b86c3da4a0b3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- CCNA Certified  
-- Currently pursuing: **Cloud Security certifications (AWS, Azure)**  
+- 💼 **Proven Expertise:** Hands-on experience in building secure and scalable networks.  
+- 🔧 **Problem Solver:** Adept at troubleshooting, optimizing, and automating complex systems.  
+- 🚀 **Future-Ready:** Continuously upgrading my skills to align with emerging technologies and trends.  
+- 🤝 **Collaborative:** A team player who values communication and knowledge sharing.  
 
----
-
-## 🛠️ **Skills and Tools**  
-
-- **Networking:** BGP, OSPF, DMVPN, MPLS  
-- **Security:** Firewalls (Cisco ASA, Checkpoint), VPNs, Anti-DDoS Solutions  
-- **Automation:** Python, Ansible  
-- **Cloud:** AWS, Azure (in progress)  
-- **Monitoring:** SolarWinds, PRTG  
-- **Lab Environments:** EVE-NG, GNS3  
+Whether you're looking for someone to **secure hybrid environments**, **optimize network performance**, or **automate workflows**, I bring value by delivering innovative solutions and measurable results.  
 
 ---
 
-## 🌟 **Let’s Collaborate**  
-
-I’m open to collaborating on exciting networking and security projects! If you’re working on something innovative or have ideas for joint projects, feel free to reach out.  
+## 🤝 **Let’s Connect**  
 
 📧 **Email:** oosigah@gmail.com
-💼 **LinkedIn:** <a href="https://linkedin.com/in/osigah-o"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  
+💼 **LinkedIn:** https://linkedin.com/in/osigah-o 
+💻 **GitHub:**   
 
-🤝 **Let’s connect and make an impact together!**  
-  
+Feel free to explore my repositories and reach out  
 
-🤝 **Let’s connect and make an impact together!**  
+---
+
+## 📌 **Next Steps**  
+
+I’m actively working on:  
+- Advanced **Cloud Security Labs**  
+- Automation projects to optimize network operations  
+- Expanding my expertise in **Palo Alto Networks** and **AWS Security**  
+
+Watch this space for more updates! 🚀  
+
 
