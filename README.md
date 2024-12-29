@@ -44,6 +44,8 @@ This portfolio is a showcase of my technical projects, skills, and accomplishmen
 
 ## 🏆 **Certifications & Trainings**
 
+<div>
+
 <img src="https://img.shields.io/badge/-CCNP%20Security-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
 <img src="https://img.shields.io/badge/-SCOR%20(350--701)-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
@@ -56,6 +58,7 @@ This portfolio is a showcase of my technical projects, skills, and accomplishmen
 
 <img src="https://img.shields.io/badge/-AWS%20Security%20Engineering%20Training-FF9900?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
 
+</div>
 
 ---
 
