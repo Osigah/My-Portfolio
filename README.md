@@ -31,11 +31,6 @@ This portfolio is a showcase of my technical projects, skills, and accomplishmen
   - Multi-vendor setup (Cisco, CheckPoint) for cross-platform security testing.  
 - Conducted **penetration testing** to identify and mitigate vulnerabilities.  
 
-### ☁️ **Cloud Security and Hybrid Integration**  
-- Deployed **AWS VPCs** with secure VPN connectivity to on-premises networks for hybrid cloud setups.  
-- Implemented **IAM roles, policies, and security groups** for least privilege access and workload protection.  
-- Designed a **secure-by-default cloud architecture** for scalable application hosting.  
-
 ### 🤖 **Network Automation with Python**  
 - Automated daily **network monitoring** using **Python scripts** integrated with tools like SolarWinds and PRTG.  
 - Developed **Ansible playbooks** for automating firewall policy deployments and routine network tasks, saving hours of manual effort.  
