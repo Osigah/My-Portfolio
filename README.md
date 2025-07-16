@@ -22,7 +22,7 @@ This portfolio is a showcase of my technical projects, skills, and accomplishmen
 ### 🔒 **Enterprise VPN Deployment and Security**  
 - Built **secure site-to-site VPNs** using Cisco ASA and implemented advanced configurations, including:  
   - QoS for critical application traffic.  
-  - Anti-replay mechanisms and robust encryption.  
+  - Encryption.  
 - Configured **Cisco AnyConnect VPNs** for secure remote access, ensuring seamless user experiences and compliance with organizational policies.  
 
 ### 🌐 **Virtualized Network Security Lab**  
@@ -32,7 +32,7 @@ This portfolio is a showcase of my technical projects, skills, and accomplishmen
 - Conducted **penetration testing** to identify and mitigate vulnerabilities.  
 
 ### 🤖 **Network Automation with Python**  
-- Automated daily **network monitoring** using **Python scripts** integrated with tools like SolarWinds and PRTG.  
+- Automated daily **network monitoring** using **Python scripts**. 
 - Developed **Ansible playbooks** for automating firewall policy deployments and routine network tasks, saving hours of manual effort.  
 
 ---
