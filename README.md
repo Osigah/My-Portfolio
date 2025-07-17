@@ -79,6 +79,7 @@ My-Portfolio/
 ├── offensive-lab-exercises/       # Ethical hacking labs
 ├── README.md                      # <-- You're here
 
+---
 
 🤝 Let's Connect
 If you're interested in collaborating, offering mentorship, or just exchanging ideas — feel free to connect:
