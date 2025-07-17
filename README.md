@@ -1,117 +1,93 @@
-# 🚀 Hi, I'm Osigah. Welcome to my Portfolio.
+# 👨🏽‍💻 Osigah's Tech Portfolio
 
-Hi there! 👋 I'm a **Network and Security Engineer** with a proven track record of solving complex challenges in networking, cybersecurity, and cloud environments. With industry-recognized certifications, real-world experience, and an unrelenting passion for innovation, this portfolio highlights my journey, skills, and expertise as I aim to secure a role in **network security** and **cloud security**.  
-
----
-
-## 🎯 **About Me**  
-
-I am a results-driven engineer with hands-on experience in designing, implementing, and securing **enterprise-grade networks**. My goal is to bridge the gap between **traditional networking** and the **cloud-first world**, leveraging cutting-edge tools and best practices to build resilient, scalable, and secure infrastructures.  
-
-- 🌟 **CCNP Security Certified** (and other certifications listed below).  
-- 🛡️ Focused on **network security, cloud security**, and **automation**.  
-- 🌐 Experienced in **multi-vendor environments** and **hybrid cloud networking**.  
-- 💡 Always learning, currently diving deep into **AWS Cloud Security** and **Python automation**.  
-
-This portfolio is a showcase of my technical projects, skills, and accomplishments.  
+Welcome to my evolving portfolio! I'm a certified network and security engineer transitioning into DevOps, Cloud, and Cybersecurity, blending traditional infrastructure with automation, secure systems design, and cloud-native practices.
 
 ---
 
-## 📂 **Featured Projects**  
+## 🚀 About Me
 
-### 🔒 **Enterprise VPN Deployment and Security**  
-- Built **secure site-to-site VPNs** using Cisco ASA and implemented advanced configurations, including:  
-  - QoS for critical application traffic.  
-  - Encryption.  
-- Configured **Cisco AnyConnect VPNs** for secure remote access, ensuring seamless user experiences and compliance with organizational policies.  
+I'm Osigah — a certified network and security professional with:
 
-### 🌐 **Virtualized Network Security Lab**  
-- Created a **real-world enterprise network** on **EVE-NG**, simulating diverse scenarios, including:  
-  - BGP and OSPF routing, VLAN segmentation, and firewall policy enforcement.  
-  - Multi-vendor setup (Cisco, CheckPoint) for cross-platform security testing.  
-- Conducted **penetration testing** to identify and mitigate vulnerabilities.  
+- ✅ **Cisco Certified Network Associate (CCNA)**
+- ✅ **Cisco Certified Network Professional – Security (CCNP Security)**
+- ✅ **Cisco Security VPN**
 
-### 🤖 **Network Automation with Python**  
-- Automated daily **network monitoring** using **Python scripts**. 
-- Developed **Ansible playbooks** for automating firewall policy deployments and routine network tasks, saving hours of manual effort.  
+Currently, I’m focused on:
 
----
+- Automating infrastructure with **Python**, **Ansible**, **Docker** and **Bash**
+- Building and securing **DevOps pipelines**
+- Designing and monitoring **cloud systems (AWS, Azure Devops)**
+- Practicing both **offensive and defensive cybersecurity labs**
+- Bridging **networking + DevSecOps** in real-world scenarios
 
-## 🏆 **Certifications & Trainings**
-
-<div>
-
-<img src="https://img.shields.io/badge/-CCNP%20Security-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
-
-<img src="https://img.shields.io/badge/-SCOR%20(350--701)-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
-
-<img src="https://img.shields.io/badge/-SVPN%20(300--730)-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
-
-<img src="https://img.shields.io/badge/-CCNA-005FCC?&style=for-the-badge&logo=Cisco&logoColor=white" />
-
-<img src="https://img.shields.io/badge/-Udacity%20Data%20Analyst%20Nanodegree-02B3E4?&style=for-the-badge&logo=Udacity&logoColor=white" />
-
-<img src="https://img.shields.io/badge/-AWS%20Security%20Engineering%20Training-FF9900?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
-
-</div>
+I believe in **learning by doing**, and this repo is a living roadmap of my progress.
 
 ---
 
-## 🛠️ **Core Skills and Tools**  
+## 🎯 Current Focus Areas (2025)
 
-- **Networking:**  
-  - Protocols: BGP, OSPF, EIGRP, DMVPN, MPLS  
-  - VPNs: IPsec, AnyConnect, Site-to-Site VPNs  
-  - Routing & Switching: VLANs, STP, QoS  
-
-- **Security:**  
-  - Firewalls: Cisco ASA, CheckPoint, Palo Alto (in progress)  
-  - Identity Management: Cisco ISE, AAA, RADIUS  
-  - Threat Mitigation: DDoS Protection, ACLs, IPS/IDS  
-
-- **Cloud Computing:**  
-  - AWS (VPC, IAM, EC2, Security Groups, CloudTrail)  
-  - Azure (in progress)  
-  - Hybrid Networking  
-
-- **Automation & Monitoring:**  
-  - Automation Tools: Python, Ansible  
-  - Monitoring: SolarWinds, PRTG, Cisco ThousandEyes  
-
-- **Virtualization & Labs:**  
-  - EVE-NG, GNS3  
-  - Multi-vendor environments (Cisco, Huawei, CheckPoint)  
+| Domain | Goals |
+|--------|-------|
+| **DevOps** | CI/CD with GitHub Actions, Docker workflows, Linux mastery, Azure Devops |
+| **Security** | Red & Blue Team labs, hardening systems, vulnerability testing |
+| **Cloud** | AWS core services (IAM, S3, EC2), IaC with Terraform |
+| **Automation** | Python scripting, API calls, network automation |
+| **Networking** | DMVPN, SD-WAN, BGP, OSPF, Firewalls, ZTP
 
 ---
 
-## 🌟 **Why Hire Me?**  
+## 🧾 Certifications
 
-- 💼 **Proven Expertise:** Hands-on experience in building secure and scalable networks.  
-- 🔧 **Problem Solver:** Adept at troubleshooting, optimizing, and automating complex systems.  
-- 🚀 **Future-Ready:** Continuously upgrading my skills to align with emerging technologies and trends.  
-- 🤝 **Collaborative:** A team player who values communication and knowledge sharing.  
+- 🛡️ CCNA – Cisco Certified Network Associate  
+- 🔐 CCNP Security – Cisco Certified Network Professional   
 
-Whether you're looking for someone to **secure hybrid environments**, **optimize network performance**, or **automate workflows**, I bring value by delivering innovative solutions and measurable results.  
+_(More certifications will be added as I expand into cloud and security domains.)_
 
 ---
 
-## 🤝 **Let’s Connect**  
+## 🛠️ Tools & Technologies
 
-📧 **Email:** oosigah@gmail.com
-💼 **LinkedIn:** https://linkedin.com/in/osigah-o 
-💻 **GitHub:**   
-
-Feel free to explore my repositories and reach out  
+- **Languages:** Python, Bash, YAML
+- **DevOps:** Git, GitHub Actions, Docker, Linux, Ansible, Azure Devops
+- **Cloud:** AWS (Core Services, IAM, CLI), Terraform (learning)
+- **Security:** Nmap, Wireshark, Metasploit, Nessus, SIEM tools
+- **Networking:** Cisco, Huawei, BGP, OSPF, DMVPN, SD-WAN, ISE, Fortinet, ACI
+- **Monitoring:** SolarWinds, PRTG, ELK Stack
 
 ---
 
-## 📌 **Next Steps**  
+## 🧪 Projects & Labs (In Progress)
 
-I’m actively working on:  
-- Advanced **Cloud Security Labs**  
-- Automation projects to optimize network operations  
-- Expanding my expertise in **Palo Alto Networks** and **AWS Security**  
+I’m actively working on hands-on labs and will link each project here as I complete them:
 
-Watch this space for more updates! 🚀  
+| Project | Description | Status |
+|---------|-------------|--------|
+| `network-automation-labs` | Python scripts to automate switch/router configs and monitoring | ⚙️ In Development |
+| `infrastructure-as-code` | Set up microservices and/or websites using Linux servers and vagrant |
+
+Each project folder will have its **own README** with full documentation, usage examples, and setup instructions.
+
+---
+
+## 📂 Repository Structure
+
+```plaintext
+My-Portfolio/
+├── network-automation-labs/       # Python scripts & YAML automation
+├── cloud-security-toolkit/        # Terraform + AWS IAM security
+├── devsecops-pipeline-lab/        # CI/CD with SAST/DAST tools
+├── offensive-lab-exercises/       # Ethical hacking labs
+├── README.md                      # <-- You're here
 
 
+🤝 Let's Connect
+If you're interested in collaborating, offering mentorship, or just exchanging ideas — feel free to connect:
+
+🧑🏽‍💼 LinkedIn (add yours)
+
+✉️ Email: osigah.dev[at]example[dot]com
+
+📜 License
+This portfolio and its sub-projects are open for learning, inspiration, and contribution. Individual project folders may have their own licenses.
+
+“Documenting the journey as much as the destination.”
