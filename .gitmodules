@@ -1,0 +1,3 @@
+[submodule "Vagrant_Automation/Vagrant_Automation/BashScripts"]
+	path = Vagrant_Automation/Vagrant_Automation/BashScripts
+	url = https://github.com/Osigah/My-Portfolio.git
