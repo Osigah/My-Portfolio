@@ -69,7 +69,11 @@ The provisioning script automatically:
 5. Restarts the web server to serve the site
 
 ---
+Image of site hosted locally as pulled from tooplate.
 
+![alt text](image.png)
+
+---
 ## Technologies Used
 - Vagrant – Infrastructure automation and VM provisioning
 
@@ -113,5 +117,5 @@ DevOps | Network Security | Automation | Cloud
 
 ---
 
-📜 License
+## 📜 License
 This project is provided for educational purposes and personal learning. All rights for the downloaded template belong to Tooplate.
