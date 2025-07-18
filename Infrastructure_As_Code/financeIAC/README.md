@@ -26,29 +26,24 @@ This project demonstrates a simple Infrastructure-as-Code (IaC) setup to deploy 
    ```bash
    git clone https://github.com/Osigah/My-Portfolio.git
    cd My-Portfolio/infrastructure-as-code/finance-website-vagrant
-
 2. Start the VM and provision it:
     ```bash
     vagrant up
-
 3. Access the Site
     ```bash
     Once provisioned, visit the ip mapped in the vagrant file
     You should see the Mini Finance static site loaded.
-
 4. SSH into the VM if needed:
     ```bash
     vagrant ssh
     ip addr show - to get the ip address.
-
 5. Destroy the VM when done
     ```bash
     vagrant destroy
-
 ---
 
 ## What Happens Behind the Scenes ?
- script:  
+1. script included in the Vagrant file :  
     ```bash
     config.vm.provision "shell", inline: <<-SHELL
     yum install httpd wget unzip vim -y
@@ -61,8 +56,6 @@ This project demonstrates a simple Infrastructure-as-Code (IaC) setup to deploy 
     cp  -r 2135_mini_finance/* /var/www/html/
     systemctl restart httpd
    SHELL
-
-
 The provisioning script automatically:
 
 1. Installs required packages (httpd, wget, unzip, vim)
