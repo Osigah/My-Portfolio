@@ -72,23 +72,12 @@ Each project folder will have its **own README** with full documentation, usage 
 🤝 Let's Connect
 If you're interested in collaborating, offering mentorship, or just exchanging ideas — feel free to connect:
 
-🧑🏽‍💼 LinkedIn (add yours)
+🧑🏽‍💼 LinkedIn - 
 
-✉️ Email: osigah.dev[at]example[dot]com
+✉️ Email: oosigah@gmail.com
 
 📜 License
 This portfolio and its sub-projects are open for learning, inspiration, and contribution. Individual project folders may have their own licenses.
 
 “Documenting the journey as much as the destination.”
 
----
-
-## 📂 Repository Structure
-
-```plaintext
-My-Portfolio/
-├── network-automation-labs/       # Python scripts & YAML automation
-├── cloud-security-toolkit/        # Terraform + AWS IAM security
-├── devsecops-pipeline-lab/        # CI/CD with SAST/DAST tools
-├── offensive-lab-exercises/       # Ethical hacking labs
-├── README.md                      # <-- You're here
