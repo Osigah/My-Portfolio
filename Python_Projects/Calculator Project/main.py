@@ -1,5 +1,5 @@
 from art import logo
-print(logo)
+
 def add(n1, n2):
     return n1 + n2
 
@@ -20,6 +20,7 @@ operations = {
 }
 
 def calculator():
+    print(logo)
     num1 = float(input("What is the first number?: "))
     should_continue = True
     while should_continue:
@@ -40,7 +41,6 @@ def calculator():
         else:
             should_continue=False
             print("\n" * 20)
-            print(logo)
             calculator()
 
 calculator()

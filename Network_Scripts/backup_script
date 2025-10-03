@@ -1,0 +1,95 @@
+import os
+from netmiko import ConnectHandler
+from datetime import datetime
+import pandas as pd
+from pathlib import Path
+
+
+#Multiple credentials to try : {username, password, enable_password}
+#In production, especially when using reusable scripts, its recommended to use the os.environ.get() option
+#making sure your script does not have sensitive information like login and passwords in plain text by storing them as env variables.
+CREDENTIALS = [
+    ("cisco", "cisco","cisco" ),
+    ("cisco1", "cisco1","cisco1"),
+]
+
+DEVICE_TYPE = "cisco_ios"
+
+# Create Backup folder 
+backup_dir = "backups"
+if not os.path.exists(backup_dir):
+    os.makedirs(backup_dir)
+
+log_file = os.path.join(backup_dir, "backup_log.txt")
+
+devices_df = pd.read_csv("backupcisco.csv", encoding="latin1")
+
+
+def backup_config(branch_code, branch_name, ip):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    connected = False
+    connection = None
+
+    for username, password, enable_pw in CREDENTIALS:
+        try:
+            print(f"[INFO] Trying {username} for {branch_code} - {branch_name} ({ip})...")
+
+            device = {
+                "device_type": DEVICE_TYPE,
+                "host": ip,
+                "username": username,
+                "password": password,
+                "secret" : enable_pw,
+            }
+
+            connection = ConnectHandler(**device)
+            connected = True
+            
+            if ">" in connection.find_prompt():
+                connection.enable()
+                
+            break
+             
+
+        except Exception as e:
+            print(f"[WARNING] Login failed with {username}: {e}")
+            continue
+
+    if not connected:
+        print(f"[ERROR] Could not connect to {branch_code} - {branch_name} ({ip}) with any credentials.")
+        with open(log_file, "a") as log:
+            log.write(f"{timestamp} - {branch_code} - {branch_name} ({ip}) : FAILED (Auth issue)\n")
+        return
+
+    try:
+        
+        #Backup config 
+        config = connection.send_command("show running-config")
+
+        file_timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+        safe_branch_name = branch_name.replace(" ", "_")
+        filename = f"{backup_dir}/{branch_code}_{safe_branch_name}_{file_timestamp}.txt"
+
+        with open(filename, "w") as f:
+            f.write(config)
+
+        print(f"[SUCCESS] Backup saved: {filename}")
+        connection.disconnect()
+
+        with open(log_file, "a") as log:
+            log.write(f"{timestamp} - {branch_code} - {branch_name} ({ip}) : SUCCESS\n")
+
+    except Exception as e:
+        print(f"[ERROR] Failed to backup {ip} ({branch_name}): {e}")
+        with open(log_file, "a") as log:
+            log.write(f"{timestamp} - {branch_code} - {branch_name} ({ip}) : FAILED ({e})\n")
+
+
+# Loop through each row in CSV file 
+for _, row in devices_df.iterrows():
+    branch_code = str(row["Branch Code"])
+    branch_name = str(row["Branch Name"])
+    ip_address = str(row["IP Address"])
+
+    backup_config(branch_code, branch_name, ip_address)
