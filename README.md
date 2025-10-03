@@ -17,3 +17,5 @@ Featured Folders ( Projects that will be added to Portfolio)
 - Infrastructure As Code
 - Networking Scripts
 - Python Projects
+
+I use this space to showcase hands-on projects in automation, cloud reliability, and security engineering bridging my network background with SRE/DevOps practices.
