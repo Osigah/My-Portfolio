@@ -1,25 +1,25 @@
-# 💰 Finance Website Deployment with Vagrant & Shell Provisioning
+# Finance Website Deployment with Vagrant & Shell Provisioning
 
 This project demonstrates a simple Infrastructure-as-Code (IaC) setup to deploy a static finance-themed website using **Vagrant** and **Shell scripting**. The goal is to automate the provisioning of a local development environment using a CentOS VM with Apache (`httpd`) and deploy a pre-designed template from [Tooplate](https://www.tooplate.com).
 
 ---
 
-## 📦 Project Overview
+## Project Overview
 
-- 🔧 **Tool Used:** Vagrant + Inline Shell Script
-- 🌐 **Deployed Service:** Static finance website (HTML/CSS)
-- 🧪 **Use Case:** Local testing of infrastructure automation with basic web deployment
+-  **Tool Used:** Vagrant + Inline Shell Script
+-  **Deployed Service:** Static finance website (HTML/CSS)
+-  **Use Case:** Local testing of infrastructure automation with basic web deployment
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
-### 🔗 Prerequisites
+###  Prerequisites
 
 - [Vagrant](https://www.vagrantup.com/downloads)
 - [VirtualBox](https://www.virtualbox.org/) or any Vagrant-compatible provider
 
-### ⚙️ Setup Instructions
+###  Setup Instructions
 
 1. Clone the repository or navigate to this folder:
 
@@ -85,7 +85,7 @@ Image of site hosted locally as pulled from tooplate.
 
 ---
 
-## 🌟 Highlights
+##  Highlights
 Hands-on introduction to IaC principles
 
 Uses automated provisioning for consistent environments
@@ -96,7 +96,7 @@ Lays the foundation for future tools (Ansible, Docker, cloud infra)
 
 ---
 
-## 🔄 Future Improvements
+## Future Improvements
 Replace inline shell with provision.sh (external script file)
 
 Switch provisioning to Ansible for better configuration control
@@ -111,11 +111,11 @@ Optionally migrate to Docker or Terraform + cloud hosting
 
 ---
 
-## 👨🏽‍💻 Author
+## Author
 Osigah
 DevOps | Network Security | Automation | Cloud
 
 ---
 
-## 📜 License
+## License
 This project is provided for educational purposes and personal learning. All rights for the downloaded template belong to Tooplate.
