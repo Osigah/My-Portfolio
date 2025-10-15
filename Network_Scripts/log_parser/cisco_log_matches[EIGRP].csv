@@ -1,0 +1,4 @@
+Matching Cisco Log Entries
+*Oct 15 09:19:38.835: %DUAL-5-NBRCHANGE: EIGRP-IPv4 100: Neighbor 10.1.1.2 (Ethernet1/1) is up: new adjacency
+*Oct 15 09:19:38.847: %DUAL-5-NBRCHANGE: EIGRP-IPv4 100: Neighbor 10.4.4.2 (Ethernet1/0) is up: new adjacency
+*Oct 15 09:21:40.735: %DUAL-5-NBRCHANGE: EIGRP-IPv4 100: Neighbor 10.2.2.2 (Ethernet1/2) is up: new adjacency
